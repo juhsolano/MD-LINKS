@@ -1,39 +1,36 @@
 {
-  "name": "sap003-md-links",
+  "name": "md-links",
   "version": "1.0.0",
   "description": "projeto md-links Laboratoria",
-  "main": "lib/index.js",
+  "main": "cli.js",
   "scripts": {
-    "eslint": "eslint --ext .js lib/ test/ --fix",
-    "pretest": "npm run eslint && npm run htmlhint",
+    "start": "node cli.js",
+    "eslint": "eslint --ext .js lib/ __tests__/ --fix",
+    "pretest": "npm run eslint",
     "test": "jest --covarage"
   },
   "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/plugin-transform-modules-commonjs": "^7.2.0",
-    "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "^24.8.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.2.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^22.1.2",
-    "htmlhint": "^0.11.0",
-    "jest": "^24.8.0",
-    "regenerator-runtime": "^0.13.1",
-    "stylelint": "^10.1.0",
-    "stylelint-config-recommended": "^2.2.0"
+    "jest": "^24.9.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/juhsolano/SAP003-md-links.git"
   },
   "keywords": [
-    "git",
-    "push",
-    "-u",
-    "origin",
-    "master"
+    "npm",
+    "javascript",
+    "nodejs"
   ],
+  "bin": {
+    "md-links": "cli.js"
+  },
   "author": "Juanita Solano",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
 }
