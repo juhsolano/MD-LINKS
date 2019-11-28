@@ -6,8 +6,7 @@
   "scripts": {
     "start": "node cli.js",
     "eslint": "eslint --ext .js lib/ __tests__/ --fix",
-    "pretest": "npm run eslint",
-    "test": "jest --covarage"
+    "test": "jest --coverage"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
@@ -29,8 +28,5 @@
     "md-links": "cli.js"
   },
   "author": "Juanita Solano",
-  "license": "ISC",
-  "dependencies": {
-    "node-fetch": "^2.6.0"
-  }
+  "license": "ISC"
 }

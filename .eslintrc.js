@@ -1,6 +1,6 @@
 module.exports = {
   env: {
-    browser: true,
+    browser: false,
     es6: true,
     'jest/globals': true,
   },
@@ -18,6 +18,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    'no-console': 'off',
     'linebreak-style': 0,
     'prefer-destructuring': 0,
     'import/extensions': 0,
