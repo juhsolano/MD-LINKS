@@ -18,6 +18,8 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    'semi': ['error', 'always'],
+    'quotes': ['error', 'double'],
     'no-console': 'off',
     'linebreak-style': 0,
     'prefer-destructuring': 0,
