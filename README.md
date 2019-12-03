@@ -25,6 +25,19 @@ Example:
 
     $ md-links ./file_path/example_file.md
 
+The module can also be executed as import using "require":
+
+Example: 
+
+    const mdLinks = require("md-links");
+    mdLinks("./example_file.md")
+        .then(links => {
+    // => [{ href, text }]
+    })
+        .catch(console.error);
+
+### Return Value
+
 It will return a Promise consisting of an Object {key, value}, whose elements  are the properties:
 
     * href: URL 
