@@ -4,7 +4,7 @@ Library that reads and analyze markdown files (.md) to verify the content’s li
 ***
 ## Summary
 * [Install](#1-install)
-* [Usage - CLI (Command Line INterface)](#2-usage)
+* [Usage - CLI (Command Line Interface)](#2-usage)
 
 ***
 ## Install
@@ -29,4 +29,3 @@ It will return a Promise consisting of an Object {key, value}, whose elements  a
 
     * href: URL 
     * text: URLs title 
-
