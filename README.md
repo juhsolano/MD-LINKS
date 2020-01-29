@@ -42,3 +42,5 @@ It will return a Promise consisting of an Object {key, value}, whose elements  a
 
     * href: URL 
     * text: URLs title 
+
+![md-links](img/md-links.png)
